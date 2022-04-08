@@ -8,6 +8,10 @@
 2. 将下载好的chromedriver.exe放入python.exe的所在文件夹，然后再放入chrome.exe的所在文件夹。
 3. 将chrome.exe的所在文件夹设到系统变量中。
 
+
+
+
+这里我用的小猫的代理,默认是7890,如果需要可以更改源码,或者使用-po参数指定127.0.0.1:port
 ```
 python .\Googel_Crawler.py -s "site:lzu.edu.cn" -p 3 -t 5 --gpu
 ```
